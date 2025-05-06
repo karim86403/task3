@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #d3d0d0;
+}
+
+header {
+  background: #13057d;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.about {
+  display: flex;
+  background: #fff;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.profile {
+  flex: 1;
+  padding: 20px;
+}
+
+.profile img {
+  width: 300px;
+  border-radius: 100px;
+}
+
+.skill {
+  margin-top: 20px;
+}
+
+.bar {
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 100%;
+  background: #007bff;
+}
+
+.progress.html { width: 85%; }
+.progress.css { width: 75%; }
+.progress.php { width: 50%; }
+.progress.js { width: 90%; }
+
+.about-me {
+  flex: 2;
+  padding: 100px;
+}
+
+.about-me h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.about-me p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.icon:focus{
+  outline: 0;
+}
+
+  </style>
+  <meta charset="UTF-8">
+  <title>DevFolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DevFolio</h1>
+    <nav>
+      <ui>
+      <a href="#">Home</a>
+      <a href="#">About me</a>
+      <a href="#">Services</a>
+      <a href="#">Work</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </ui>
+    </nav>
+  </header>
+
+  <section class="about">
+    <div class="profile">
+      <img src="picture/IMG-20221123-WA0001.jpg" alt="profile picture">
+      <p><strong>Name:</strong> Karim Ihab Mohamed</p>
+      <p><strong>Profile:</strong> Surveyor </p>
+      <p><strong>Email:</strong> kimo86403@gmail.com</p>
+      <p><strong>Phone:</strong> 01111360149</p>
+      <p><strong>country:</strong> sohag </p>
+      <h3>Skill </h3>
+      <div class="skill">
+        <p>HTML </p>
+        <div class="bar"><div class="progress html"></div></div>
+        <p>CSS </p>
+        <div class="bar"><div class="progress css"></div></div>
+        <p>PHP </p>
+        <div class="bar"><div class="progress php"></div></div>
+        <p>JAVASCRIPT </p>
+        <div class="bar"><div class="progress js"></div></div>
+      </div>
+    </div>
+    
+    <div class="about-me">
+      <h2>About me</h2>
+      <p> obiective:
+        A detail-driven professional looking for a challenging job to apply my skills and grow within a successful organization </p>
+      <p> Skills:
+           Microsoft Office (Word, Excel, PowerPoint)
+           GIS and Remote Sensing
+           Data analysis
+           Teamwork and communication </p>
+      <p> Languages:
+         Arabic (fluent)
+         English (medium)
+         French (medium) </p>
+         <p> I hope to learn cyper security and be distinguished by it later </p>
+         <p> social media : </p>
+         <a href="https://www.facebook.com/share/1Fq7KSwHZm/" >Facebook</a>
+         <p> </p>
+         <a href="https://www.instagram.com/kimo679422?igsh=bXJybDc0eHl6d3Uz" >instagram</a>
+         <p> </p>
+         <a href="https://wa.me/qr/CZLHMPDRMBLAI1" >Whatsapp</a>
+    </div>
+    
+  </section>
+</body>
+</html>
