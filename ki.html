@@ -17,7 +17,6 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
 header h1 {
   margin: 0;
 }
@@ -42,7 +41,7 @@ nav a {
 }
 
 .profile img {
-  width: 300px;
+  width: 200px;
   border-radius: 100px;
 }
 
@@ -85,10 +84,26 @@ nav a {
 .icon:focus{
   outline: 0;
 }
-
+@media (max-width: 500px) {
+  #mobile {
+    display: block;
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  }
+  #tablet {
+    display: block;
+  } 
+@media (min-width: 769px) {
+  #tablet {
+    display: block;
+}
+}
   </style>
   <meta charset="UTF-8">
   <title>DevFolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -129,7 +144,7 @@ nav a {
     
     <div class="about-me">
       <h2>About me</h2>
-      <p> obiective:
+      <p> objective:
         A detail-driven professional looking for a challenging job to apply my skills and grow within a successful organization </p>
       <p> Skills:
            Microsoft Office (Word, Excel, PowerPoint)
